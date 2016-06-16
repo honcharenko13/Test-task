@@ -10,15 +10,15 @@
 		54341989ED7683DD090C6B20 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 145D2305D262445A0E206064 /* libPods.a */; };
 		840E68851D12B6E60042FC5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E68841D12B6E60042FC5C /* main.m */; };
 		840E68881D12B6E60042FC5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E68871D12B6E60042FC5C /* AppDelegate.m */; };
-		840E688B1D12B6E60042FC5C /* AHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E688A1D12B6E60042FC5C /* AHTableViewController.m */; };
 		840E688E1D12B6E70042FC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E688C1D12B6E70042FC5C /* Main.storyboard */; };
 		840E68901D12B6E70042FC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E688F1D12B6E70042FC5C /* Assets.xcassets */; };
 		840E68931D12B6E70042FC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E68911D12B6E70042FC5C /* LaunchScreen.storyboard */; };
 		840E689E1D12B6E70042FC5C /* AHTestTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E689D1D12B6E70042FC5C /* AHTestTaskTests.m */; };
 		840E68A91D12B6E70042FC5C /* AHTestTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E68A81D12B6E70042FC5C /* AHTestTaskUITests.m */; };
-		840E68BA1D12BD5E0042FC5C /* AHDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E68B91D12BD5E0042FC5C /* AHDataManager.m */; };
-		840E68C01D12BE4B0042FC5C /* AHCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E68BF1D12BE4B0042FC5C /* AHCustomCell.m */; };
-		840E68C51D12C5280042FC5C /* AHRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E68C41D12C5280042FC5C /* AHRepository.m */; };
+		84B13E581D12F6F500E179F1 /* AHDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B13E4B1D12F6F500E179F1 /* AHDataManager.m */; };
+		84B13E591D12F6F500E179F1 /* AHRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B13E4F1D12F6F500E179F1 /* AHRepository.m */; };
+		84B13E5A1D12F6F500E179F1 /* AHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B13E531D12F6F500E179F1 /* AHTableViewController.m */; };
+		84B13E5B1D12F6F500E179F1 /* AHCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B13E571D12F6F500E179F1 /* AHCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 		840E68841D12B6E60042FC5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		840E68861D12B6E60042FC5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		840E68871D12B6E60042FC5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		840E68891D12B6E60042FC5C /* AHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHTableViewController.h; sourceTree = "<group>"; };
-		840E688A1D12B6E60042FC5C /* AHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHTableViewController.m; sourceTree = "<group>"; };
 		840E688D1D12B6E70042FC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840E688F1D12B6E70042FC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840E68921D12B6E70042FC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,12 +56,14 @@
 		840E68A41D12B6E70042FC5C /* AHTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840E68A81D12B6E70042FC5C /* AHTestTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHTestTaskUITests.m; sourceTree = "<group>"; };
 		840E68AA1D12B6E70042FC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		840E68B81D12BD5E0042FC5C /* AHDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AHDataManager.h; path = AHDataManager/AHDataManager.h; sourceTree = "<group>"; };
-		840E68B91D12BD5E0042FC5C /* AHDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AHDataManager.m; path = AHDataManager/AHDataManager.m; sourceTree = "<group>"; };
-		840E68BE1D12BE4B0042FC5C /* AHCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AHCustomCell.h; path = AHCustomCell/AHCustomCell.h; sourceTree = "<group>"; };
-		840E68BF1D12BE4B0042FC5C /* AHCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AHCustomCell.m; path = AHCustomCell/AHCustomCell.m; sourceTree = "<group>"; };
-		840E68C31D12C5280042FC5C /* AHRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AHRepository.h; path = Model/AHRepository/AHRepository.h; sourceTree = "<group>"; };
-		840E68C41D12C5280042FC5C /* AHRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AHRepository.m; path = Model/AHRepository/AHRepository.m; sourceTree = "<group>"; };
+		84B13E4A1D12F6F500E179F1 /* AHDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHDataManager.h; sourceTree = "<group>"; };
+		84B13E4B1D12F6F500E179F1 /* AHDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHDataManager.m; sourceTree = "<group>"; };
+		84B13E4E1D12F6F500E179F1 /* AHRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHRepository.h; sourceTree = "<group>"; };
+		84B13E4F1D12F6F500E179F1 /* AHRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHRepository.m; sourceTree = "<group>"; };
+		84B13E521D12F6F500E179F1 /* AHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHTableViewController.h; sourceTree = "<group>"; };
+		84B13E531D12F6F500E179F1 /* AHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHTableViewController.m; sourceTree = "<group>"; };
+		84B13E561D12F6F500E179F1 /* AHCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHCustomCell.h; sourceTree = "<group>"; };
+		84B13E571D12F6F500E179F1 /* AHCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,10 +134,10 @@
 		840E68821D12B6E60042FC5C /* AHTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				840E68C11D12C4F00042FC5C /* Model */,
-				840E68BC1D12BDB20042FC5C /* Views */,
-				840E68BB1D12BD8D0042FC5C /* ViewControllers */,
-				840E68B71D12BD2F0042FC5C /* AHDataManager */,
+				84B13E471D12F6F500E179F1 /* Common */,
+				84B13E4C1D12F6F500E179F1 /* Model */,
+				84B13E501D12F6F500E179F1 /* ViewControllers */,
+				84B13E541D12F6F500E179F1 /* Views */,
 				840E68861D12B6E60042FC5C /* AppDelegate.h */,
 				840E68871D12B6E60042FC5C /* AppDelegate.m */,
 				840E688C1D12B6E70042FC5C /* Main.storyboard */,
@@ -175,64 +175,80 @@
 			path = AHTestTaskUITests;
 			sourceTree = "<group>";
 		};
-		840E68B61D12BC2C0042FC5C /* AHTableViewController */ = {
+		84B13E471D12F6F500E179F1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				840E68891D12B6E60042FC5C /* AHTableViewController.h */,
-				840E688A1D12B6E60042FC5C /* AHTableViewController.m */,
+				84B13E481D12F6F500E179F1 /* Managers */,
 			);
-			name = AHTableViewController;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		840E68B71D12BD2F0042FC5C /* AHDataManager */ = {
+		84B13E481D12F6F500E179F1 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				840E68B81D12BD5E0042FC5C /* AHDataManager.h */,
-				840E68B91D12BD5E0042FC5C /* AHDataManager.m */,
+				84B13E491D12F6F500E179F1 /* AHDataManager */,
 			);
-			name = AHDataManager;
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		840E68BB1D12BD8D0042FC5C /* ViewControllers */ = {
+		84B13E491D12F6F500E179F1 /* AHDataManager */ = {
 			isa = PBXGroup;
 			children = (
-				840E68B61D12BC2C0042FC5C /* AHTableViewController */,
+				84B13E4A1D12F6F500E179F1 /* AHDataManager.h */,
+				84B13E4B1D12F6F500E179F1 /* AHDataManager.m */,
 			);
-			name = ViewControllers;
+			path = AHDataManager;
 			sourceTree = "<group>";
 		};
-		840E68BC1D12BDB20042FC5C /* Views */ = {
+		84B13E4C1D12F6F500E179F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				840E68BD1D12BDF20042FC5C /* AHCustomCell */,
+				84B13E4D1D12F6F500E179F1 /* AHRepository */,
 			);
-			name = Views;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		840E68BD1D12BDF20042FC5C /* AHCustomCell */ = {
+		84B13E4D1D12F6F500E179F1 /* AHRepository */ = {
 			isa = PBXGroup;
 			children = (
-				840E68BE1D12BE4B0042FC5C /* AHCustomCell.h */,
-				840E68BF1D12BE4B0042FC5C /* AHCustomCell.m */,
+				84B13E4E1D12F6F500E179F1 /* AHRepository.h */,
+				84B13E4F1D12F6F500E179F1 /* AHRepository.m */,
 			);
-			name = AHCustomCell;
+			path = AHRepository;
 			sourceTree = "<group>";
 		};
-		840E68C11D12C4F00042FC5C /* Model */ = {
+		84B13E501D12F6F500E179F1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				840E68C21D12C4F50042FC5C /* AHRepository */,
+				84B13E511D12F6F500E179F1 /* AHTableViewController */,
 			);
-			name = Model;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		840E68C21D12C4F50042FC5C /* AHRepository */ = {
+		84B13E511D12F6F500E179F1 /* AHTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				840E68C31D12C5280042FC5C /* AHRepository.h */,
-				840E68C41D12C5280042FC5C /* AHRepository.m */,
+				84B13E521D12F6F500E179F1 /* AHTableViewController.h */,
+				84B13E531D12F6F500E179F1 /* AHTableViewController.m */,
 			);
-			name = AHRepository;
+			path = AHTableViewController;
+			sourceTree = "<group>";
+		};
+		84B13E541D12F6F500E179F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84B13E551D12F6F500E179F1 /* AHCustomCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84B13E551D12F6F500E179F1 /* AHCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				84B13E561D12F6F500E179F1 /* AHCustomCell.h */,
+				84B13E571D12F6F500E179F1 /* AHCustomCell.m */,
+			);
+			path = AHCustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,12 +435,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840E68C51D12C5280042FC5C /* AHRepository.m in Sources */,
-				840E68BA1D12BD5E0042FC5C /* AHDataManager.m in Sources */,
-				840E688B1D12B6E60042FC5C /* AHTableViewController.m in Sources */,
 				840E68881D12B6E60042FC5C /* AppDelegate.m in Sources */,
-				840E68C01D12BE4B0042FC5C /* AHCustomCell.m in Sources */,
 				840E68851D12B6E60042FC5C /* main.m in Sources */,
+				84B13E5A1D12F6F500E179F1 /* AHTableViewController.m in Sources */,
+				84B13E5B1D12F6F500E179F1 /* AHCustomCell.m in Sources */,
+				84B13E591D12F6F500E179F1 /* AHRepository.m in Sources */,
+				84B13E581D12F6F500E179F1 /* AHDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
